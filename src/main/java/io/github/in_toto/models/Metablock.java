@@ -26,7 +26,7 @@ import org.bouncycastle.crypto.CryptoException;
  */
 abstract class Metablock<S extends Signable>
 {
-    S signed;
+    public S signed;
     ArrayList<Signature> signatures;
 
     /**

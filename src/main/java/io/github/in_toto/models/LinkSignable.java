@@ -12,13 +12,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-class LinkSignable
+public class LinkSignable
     extends Signable {
 
     HashMap<String, ArtifactHash> materials;
     HashMap<String, ArtifactHash> products;
     HashMap<String, String>  byproducts;
-    HashMap<String, String>  environment;
+    public HashMap<String, String>  environment;
     ArrayList<String> command;
     String name;
 
